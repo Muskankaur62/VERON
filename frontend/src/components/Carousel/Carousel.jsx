@@ -7,17 +7,17 @@ const Carousel = ({ autoSlide = true, slideInterval = 3000 }) => {
   const [slides, setSlides] = useState([
     {
       id: 1,
-      image: 'https://www.cdc.gov/heart-disease/media/images/2024/10/Heart-Disease-Facts.jpg',
+      image: 'https://www.shutterstock.com/image-photo/music-portraits-different-models-on-260nw-1996388801.jpg',
       alt_text: 'Slide 1',
     },
     {
       id: 2,
-      image: 'https://miro.medium.com/v2/resize:fit:1400/1*WoEu5XEHEwYFcDkbl1A3Bw.jpeg',
+      image: 'https://soulmechanicstherapy.com/wp-content/uploads/2024/06/Music-and-Mood.png',
       alt_text: 'Slide 2',
     },
     {
       id: 3,
-      image: 'https://www.maxlab.co.in/category/1668233331.jpg  ',
+      image: 'https://i.pinimg.com/736x/03/12/ea/0312eaaec44fd69f2f97e1cfb9392e39.jpg',
       alt_text: 'Slide 3',
     },
   ]);
