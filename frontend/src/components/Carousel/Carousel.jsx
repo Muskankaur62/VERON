@@ -16,7 +16,7 @@ const Carousel = ({ autoSlide = true, slideInterval = 3000 }) => {
     },
     {
       id: 3,
-      image: 'https://i.pinimg.com/736x/03/12/ea/0312eaaec44fd69f2f97e1cfb9392e39.jpg',
+      image: 'https://i.pinimg.com/736x/39/9e/ee/399eee23ad319627b6fd45ec18c65839.jpg',
       alt_text: 'Slide 3',
     },
   ]);

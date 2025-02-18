@@ -6,14 +6,17 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           {/* Logo & About */}
-          <div>
-            <img
-              src="https://i.pinimg.com/736x/10/26/9e/10269ec42b4b3aa81bef815f8bdf521f.jpg"
-              alt="Aura Tunes Logo"
-              className="mx-auto md:mx-0 w-24 h-24 rounded-full"
-            />
+          <div className="flex flex-col items-center md:items-start">
+            <div className="flex items-center gap-3">
+              <img
+                src="https://i.pinimg.com/736x/10/26/9e/10269ec42b4b3aa81bef815f8bdf521f.jpg"
+                alt="Aura Tunes Logo"
+                className="w-16 h-16 rounded-full object-cover"
+              />
+              <span className="text-2xl font-serif italic">Aura Tunes</span>
+            </div>
             <p className="mt-4 text-lg italic">
-              Discover the music that matches your vibe.
+              Discover the music that matches your taste – Music syncs with your emotion.
             </p>
           </div>
 
@@ -30,18 +33,8 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold mb-3">Contact</h3>
-            <p><i className="fas fa-map-marker-alt mr-2"></i> Punjab, India</p>
-            <p><i className="fas fa-envelope mr-2"></i> support@auratunes.com</p>
-          </div>
-        </div>
-
-        {/* Social Media Links */}
-        <div className="mt-6 text-center">
-          <h3 className="text-lg font-bold">Follow Us</h3>
-          <div className="flex justify-center space-x-6 mt-3">
-            <a href="#" className="text-white text-2xl"><i className="fab fa-facebook"></i></a>
-            <a href="#" className="text-white text-2xl"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="text-white text-2xl"><i className="fab fa-youtube"></i></a>
+            <p>Punjab, India</p>
+            <p>support@auratunes.com</p>
           </div>
         </div>
 

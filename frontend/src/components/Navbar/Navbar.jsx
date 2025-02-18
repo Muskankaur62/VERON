@@ -7,7 +7,7 @@ const Navbar = () => {
         <img
           src="https://i.pinimg.com/736x/10/26/9e/10269ec42b4b3aa81bef815f8bdf521f.jpg"
           alt="Aura Tunes Logo"
-          className="w-14 h-14 rounded-full"
+          className="w-12 h-12 rounded-full object-cover"
         />
         <span className="text-3xl font-serif italic text-gray-800">Aura Tunes</span>
       </div>
@@ -43,4 +43,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
