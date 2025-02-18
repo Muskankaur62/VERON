@@ -12,8 +12,7 @@ const Carousel = ({ autoSlide = true, slideInterval = 3000 }) => {
     },
     {
       id: 2,
-      image: 'https://soulmechanicstherapy.com/wp-content/uploads/2024/06/Music-and-Mood.png',
-      alt_text: 'Slide 2',
+      image: "https://i.pinimg.com/474x/55/83/fe/5583fe4a099992cfa1f5d4fbd52ebd0f.jpg"
     },
     {
       id: 3,

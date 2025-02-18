@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-pink-600 text-white py-10">
+    <footer className="bg-gradient-to-r from-[#ADD8E6] via-[#4FD1C5] to-[#ADD8E6] text-white py-10">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           {/* Logo & About */}
@@ -30,7 +30,7 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold mb-3">Contact</h3>
-            <p><i className="fas fa-map-marker-alt mr-2"></i> New Delhi, India</p>
+            <p><i className="fas fa-map-marker-alt mr-2"></i> Punjab, India</p>
             <p><i className="fas fa-envelope mr-2"></i> support@auratunes.com</p>
           </div>
         </div>
